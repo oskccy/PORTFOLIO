@@ -87,7 +87,7 @@
             <div class="skills__container bd-grid">
                 <div class="skills__box">
                     {% for category in categories %}
-                    <h3 class="skills__subtitle">{{category.name}}</h3>
+                    <h3 class="skills__subtitle">From Software Development to Communications</h3>
                     {% for skills in category.skills_set.all %}
 
                     <span class="skills__name">{{skills.skill_name}}</span>
@@ -100,6 +100,7 @@
                     <img src="{% static 'assets/img/skill.jpg' %}" alt="">
                 </div>
             </div>
+
         </section>
 
         <!--===== PORTFOLIO =====-->
@@ -169,15 +170,15 @@
                     <li><a href="#about" class="footer__link">About</a></li>
                     <li><a href="#skills" class="footer__link">Skills</a></li>
                     <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                    <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
                 </ul>
             </div>
 
             <div class="footer__data">
                 <h2 class="footer__title">Follow me!</h2>
-                <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
-                <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
-                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/oscar-sharaz-spencer-2b224a241/?trk=public_profile_browsemap&originalSubdomain=ca" class="footer__social"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/spen.keymer/?hl=en" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/search?q=oskccy" class="footer__social"><i class='bx bxl-github'></i></a>
             </div>
 
 

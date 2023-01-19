@@ -52,8 +52,8 @@ class Category(models.Model):
 
 class Skills(models.Model):
     category = models.ForeignKey(Category,
-                                on_delete=models.CASCADE)
-    skill_name = models.CharField(max_length=20)
+                                on_delete=models.CASCADE, max_length=100)
+    skill_name = models.CharField(max_length=50)
 
     
 
